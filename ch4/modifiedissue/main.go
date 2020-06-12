@@ -1,10 +1,5 @@
-// Copyright © 2016 Alan A. A. Donovan & Brian W. Kernighan.
-// License: https://creativecommons.org/licenses/by-nc-sa/4.0/
-
-// See page 112.
-//!+
-
-// Issues prints a table of GitHub issues matching the search terms.
+//The Go Programming Language
+//Exercise 4.10
 package main
 
 import (
@@ -16,7 +11,7 @@ import (
 	"github.com/adonovan/gopl.io/ch4/github"
 )
 
-//!+
+// TODO modify the duration in days
 func main() {
 	const monthDuration = 2.628e+15
 	const yearDuration = 3.154e+16
